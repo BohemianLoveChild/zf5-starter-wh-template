@@ -5,3 +5,6 @@
 //Import Display colors for layout markup
 	@import "my/display";
 
+.tab-bar{
+	margin: 0 10px $column-gutter;
+}

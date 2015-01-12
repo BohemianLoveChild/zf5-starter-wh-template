@@ -8226,3 +8226,7 @@ th.hide-for-touch {
 body {
   background-color: #111111;
 }
+
+.tab-bar {
+  margin: 0 10px 1.25rem;
+}
