@@ -154,8 +154,8 @@ select {
 }
 .row .row {
   width: auto;
-  margin-left: -0.625rem;
-  margin-right: -0.625rem;
+  margin-left: -0.46875rem;
+  margin-right: -0.46875rem;
   margin-top: 0;
   margin-bottom: 0;
   max-width: none;
@@ -182,8 +182,8 @@ select {
 
 .column,
 .columns {
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
+  padding-left: 0.46875rem;
+  padding-right: 0.46875rem;
   width: 100%;
   float: left;
 }
@@ -344,8 +344,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
+    padding-left: 0.46875rem;
+    padding-right: 0.46875rem;
     float: left;
   }
 
@@ -630,8 +630,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
+    padding-left: 0.46875rem;
+    padding-right: 0.46875rem;
     float: left;
   }
 
@@ -1060,8 +1060,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
+    padding-left: 0.46875rem;
+    padding-right: 0.46875rem;
     float: left;
   }
 
@@ -1490,8 +1490,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
+    padding-left: 0.46875rem;
+    padding-right: 0.46875rem;
     float: left;
   }
 
@@ -1776,8 +1776,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
+    padding-left: 0.46875rem;
+    padding-right: 0.46875rem;
     float: left;
   }
 
@@ -1944,7 +1944,7 @@ select {
 }
 .accordion .accordion-navigation > .content, .accordion dd > .content {
   display: none;
-  padding: 0.625rem;
+  padding: 0.46875rem;
 }
 .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
   display: block;
@@ -5949,7 +5949,7 @@ table tr td {
 .tabs-content > .content {
   display: none;
   float: left;
-  padding: 0.625rem 0;
+  padding: 0.46875rem 0;
   width: 100%;
 }
 .tabs-content > .content.active {
@@ -5957,13 +5957,13 @@ table tr td {
   float: none;
 }
 .tabs-content > .content.contained {
-  padding: 0.625rem;
+  padding: 0.46875rem;
 }
 .tabs-content.vertical {
   display: block;
 }
 .tabs-content.vertical > .content {
-  padding: 0 0.625rem;
+  padding: 0 0.46875rem;
 }
 
 @media only screen and (min-width: 25.063em) {
@@ -7313,11 +7313,11 @@ blockquote p {
   -webkit-backface-visibility: hidden;
   position: relative;
   width: 100%;
-  -webkit-transition: -webkit-transform 500ms ease;
-  -moz-transition: -moz-transform 500ms ease;
-  -ms-transition: -ms-transform 500ms ease;
-  -o-transition: -o-transform 500ms ease;
-  transition: transform 500ms ease;
+  -webkit-transition: -webkit-transform 750ms ease;
+  -moz-transition: -moz-transform 750ms ease;
+  -ms-transition: -ms-transform 750ms ease;
+  -o-transition: -o-transform 750ms ease;
+  transition: transform 750ms ease;
 }
 .inner-wrap:before, .inner-wrap:after {
   content: " ";
@@ -7329,16 +7329,16 @@ blockquote p {
 
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
-  color: white;
-  height: 2.8125rem;
-  line-height: 2.8125rem;
+  background: #222222;
+  color: #a526ff;
+  height: 3.125rem;
+  line-height: 3.125rem;
   position: relative;
 }
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
-  color: white;
+  color: #a526ff;
   font-weight: bold;
-  line-height: 2.8125rem;
+  line-height: 3.125rem;
   margin: 0;
 }
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
@@ -7346,20 +7346,20 @@ blockquote p {
 }
 
 .left-small {
-  width: 2.8125rem;
-  height: 2.8125rem;
+  width: 3.125rem;
+  height: 3.125rem;
   position: absolute;
   top: 0;
-  border-right: solid 1px #1a1a1a;
+  border-right: solid 1px #111111;
   left: 0;
 }
 
 .right-small {
-  width: 2.8125rem;
-  height: 2.8125rem;
+  width: 3.125rem;
+  height: 3.125rem;
   position: absolute;
   top: 0;
-  border-left: solid 1px #1a1a1a;
+  border-left: solid 1px #111111;
   right: 0;
 }
 
@@ -7367,7 +7367,7 @@ blockquote p {
   padding: 0 0.625rem;
   position: absolute;
   text-align: center;
-  height: 2.8125rem;
+  height: 3.125rem;
   top: 0;
 }
 @media only screen and (min-width: 25.063em) {
@@ -7377,24 +7377,24 @@ blockquote p {
 }
 .tab-bar-section.left {
   left: 0;
-  right: 2.8125rem;
+  right: 3.125rem;
 }
 .tab-bar-section.right {
-  left: 2.8125rem;
+  left: 3.125rem;
   right: 0;
 }
 .tab-bar-section.middle {
-  left: 2.8125rem;
-  right: 2.8125rem;
+  left: 3.125rem;
+  right: 3.125rem;
 }
 
 .tab-bar .menu-icon {
   text-indent: 2.1875rem;
-  width: 2.8125rem;
-  height: 2.8125rem;
+  width: 3.125rem;
+  height: 3.125rem;
   display: block;
   padding: 0;
-  color: white;
+  color: #a526ff;
   position: relative;
   transform: translate3d(0, 0, 0);
 }
@@ -7405,12 +7405,12 @@ blockquote p {
   height: 0;
   top: 50%;
   margin-top: -0.5rem;
-  left: 0.90625rem;
-  box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white;
+  left: 1.0625rem;
+  box-shadow: 0 0px 0 2px #a526ff, 0 8px 0 2px #a526ff, 0 16px 0 2px #a526ff;
   width: 1rem;
 }
 .tab-bar .menu-icon span:hover:after {
-  box-shadow: 0 0px 0 1px #b3b3b3, 0 7px 0 1px #b3b3b3, 0 14px 0 1px #b3b3b3;
+  box-shadow: 0 0px 0 2px #ff9326, 0 8px 0 2px #ff9326, 0 16px 0 2px #ff9326;
 }
 
 .left-off-canvas-menu {
@@ -7475,22 +7475,22 @@ ul.off-canvas-list li label {
   padding: 0.3rem 0.9375rem;
   color: #999999;
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: bold;
-  background: #444444;
-  border-top: 1px solid #5e5e5e;
+  background: #222222;
+  border-top: 1px solid #414141;
   border-bottom: none;
   margin: 0;
 }
 ul.off-canvas-list li a {
   display: block;
-  padding: 0.66667rem;
+  padding: 0.5rem;
   color: rgba(255, 255, 255, 0.7);
   border-bottom: 1px solid #262626;
   transition: background 300ms ease;
 }
 ul.off-canvas-list li a:hover {
-  background: #242424;
+  background: #1f1f1f;
 }
 
 .move-right > .inner-wrap {
@@ -7503,7 +7503,7 @@ ul.off-canvas-list li a:hover {
 }
 .move-right .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  transition: background 300ms ease;
+  transition: background 750ms ease;
   cursor: pointer;
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   display: block;
@@ -7532,7 +7532,7 @@ ul.off-canvas-list li a:hover {
 }
 .move-left .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  transition: background 300ms ease;
+  transition: background 750ms ease;
   cursor: pointer;
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   display: block;
@@ -7561,7 +7561,7 @@ ul.off-canvas-list li a:hover {
 }
 .offcanvas-overlap .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  transition: background 300ms ease;
+  transition: background 750ms ease;
   cursor: pointer;
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   display: block;
@@ -7590,7 +7590,7 @@ ul.off-canvas-list li a:hover {
 }
 .offcanvas-overlap-left .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  transition: background 300ms ease;
+  transition: background 750ms ease;
   cursor: pointer;
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   display: block;
@@ -7619,7 +7619,7 @@ ul.off-canvas-list li a:hover {
 }
 .offcanvas-overlap-right .exit-off-canvas {
   -webkit-backface-visibility: hidden;
-  transition: background 300ms ease;
+  transition: background 750ms ease;
   cursor: pointer;
   box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
   display: block;
@@ -7671,11 +7671,11 @@ ul.off-canvas-list li a:hover {
   -o-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   left: 0;
-  -webkit-transition: -webkit-transform 500ms ease;
-  -moz-transition: -moz-transform 500ms ease;
-  -ms-transition: -ms-transform 500ms ease;
-  -o-transition: -o-transform 500ms ease;
-  transition: transform 500ms ease;
+  -webkit-transition: -webkit-transform 750ms ease;
+  -moz-transition: -moz-transform 750ms ease;
+  -ms-transition: -ms-transform 750ms ease;
+  -o-transition: -o-transform 750ms ease;
+  transition: transform 750ms ease;
 }
 .left-submenu * {
   -webkit-backface-visibility: hidden;
@@ -7685,14 +7685,14 @@ ul.off-canvas-list li a:hover {
   color: #999999;
   text-transform: uppercase;
   font-weight: bold;
-  background: #444444;
-  border-top: 1px solid #5e5e5e;
+  background: #111111;
+  border-top: 1px solid #414141;
   border-bottom: none;
   margin: 0;
 }
 .left-submenu .back > a:hover {
-  background: #303030;
-  border-top: 1px solid #5e5e5e;
+  background: #0c0c0c;
+  border-top: 1px solid #414141;
   border-bottom: none;
 }
 .left-submenu .back > a:before {
@@ -7729,11 +7729,11 @@ ul.off-canvas-list li a:hover {
   -o-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
   right: 0;
-  -webkit-transition: -webkit-transform 500ms ease;
-  -moz-transition: -moz-transform 500ms ease;
-  -ms-transition: -ms-transform 500ms ease;
-  -o-transition: -o-transform 500ms ease;
-  transition: transform 500ms ease;
+  -webkit-transition: -webkit-transform 750ms ease;
+  -moz-transition: -moz-transform 750ms ease;
+  -ms-transition: -ms-transform 750ms ease;
+  -o-transition: -o-transform 750ms ease;
+  transition: transform 750ms ease;
 }
 .right-submenu * {
   -webkit-backface-visibility: hidden;
@@ -7743,14 +7743,14 @@ ul.off-canvas-list li a:hover {
   color: #999999;
   text-transform: uppercase;
   font-weight: bold;
-  background: #444444;
-  border-top: 1px solid #5e5e5e;
+  background: #111111;
+  border-top: 1px solid #414141;
   border-bottom: none;
   margin: 0;
 }
 .right-submenu .back > a:hover {
-  background: #303030;
-  border-top: 1px solid #5e5e5e;
+  background: #0c0c0c;
+  border-top: 1px solid #414141;
   border-bottom: none;
 }
 .right-submenu .back > a:after {
@@ -8228,5 +8228,9 @@ body {
 }
 
 .tab-bar {
-  margin: 0 10px 1.25rem;
+  margin-bottom: 0.9375rem;
+}
+
+.align-right {
+  text-align: right;
 }

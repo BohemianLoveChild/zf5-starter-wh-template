@@ -6,5 +6,10 @@
 	@import "my/display";
 
 .tab-bar{
-	margin: 0 10px $column-gutter;
+	margin-bottom: $gutter;
 }
+
+.align-right{
+	text-align: right;
+}
+
