@@ -95,7 +95,7 @@ $gutter: rem-calc(15);
 // We use these to define default font weights
 // $font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
-
+	$lighter	: #999;
 	$light 		: #333;
 	$mid		: #222;
 	$dark		: #111;
@@ -615,7 +615,7 @@ $gutter: rem-calc(15);
 // We use these to control video container padding and margins
 // $flex-video-padding-top: rem-calc(25);
 // $flex-video-padding-bottom: 67.5%;
-// $flex-video-margin-bottom: rem-calc(16);
+ $flex-video-margin-bottom: rem-calc(0);
 
 // We use this to control widescreen bottom padding
 // $flex-video-widescreen-padding-bottom: 56.34%;
@@ -826,7 +826,7 @@ $gutter: rem-calc(15);
 
 // Off Canvas Divider Styles
 // $tabbar-right-section-border: solid 1px scale-color($tabbar-bg, $lightness: 13%);
-// $tabbar-left-section-border: solid 1px scale-color($tabbar-bg, $lightness: -50%);
+ $tabbar-left-section-border: solid 2px scale-color($tabbar-bg, $lightness: -50%);
 
 // Off Canvas Tab Bar Headers
  $tabbar-header-color: $purple;
@@ -836,21 +836,21 @@ $gutter: rem-calc(15);
 
 // Off Canvas Menu Variables
 // $off-canvas-width: rem-calc(250);
-// $off-canvas-bg: $dark;
- $off-canvas-bg-hover: scale-color($tabbar-bg, $lightness: -10%);
+ $off-canvas-bg: $dark;
+ $off-canvas-bg-hover: scale-color($tabbar-bg, $lightness: +0%);
 
 // Off Canvas Menu List Variables
-// $off-canvas-label-padding: 0.3rem rem-calc(15);
-// $off-canvas-label-color: $aluminum;
+ $off-canvas-label-padding: 0.5rem rem-calc(20);
+ $off-canvas-label-color: $purple;
 // $off-canvas-label-text-transform: uppercase;
- $off-canvas-label-font-size: rem-calc(16);
+ $off-canvas-label-font-size: rem-calc(20);
 // $off-canvas-label-font-weight: $font-weight-bold;
- $off-canvas-label-bg: $mid;
+ $off-canvas-label-bg: $dark;
 // $off-canvas-label-border-top: 1px solid scale-color($tuatara, $lightness: 14%);
 // $off-canvas-label-border-bottom: none;
 // $off-canvas-label-margin:0;
- $off-canvas-link-padding: rem-calc(20, 40);
-// $off-canvas-link-color: rgba($white, 0.7);
+ $off-canvas-link-padding: 0.5rem rem-calc(20);
+ $off-canvas-link-color: $lighter;
 // $off-canvas-link-border-bottom: 1px solid scale-color($off-canvas-bg, $lightness: -25%);
  $off-canvas-back-bg: $dark;
 // $off-canvas-back-border-top: $off-canvas-label-border-top;

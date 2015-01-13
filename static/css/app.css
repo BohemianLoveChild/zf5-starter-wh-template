@@ -3746,7 +3746,7 @@ button::-moz-focus-inner {
   padding-top: 1.5625rem;
   padding-bottom: 67.5%;
   height: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   overflow: hidden;
 }
 .flex-video.widescreen {
@@ -7350,7 +7350,7 @@ blockquote p {
   height: 3.125rem;
   position: absolute;
   top: 0;
-  border-right: solid 1px #111111;
+  border-right: solid 2px #111111;
   left: 0;
 }
 
@@ -7359,7 +7359,7 @@ blockquote p {
   height: 3.125rem;
   position: absolute;
   top: 0;
-  border-left: solid 1px #111111;
+  border-left: solid 2px #111111;
   right: 0;
 }
 
@@ -7421,7 +7421,7 @@ blockquote p {
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #333333;
+  background: #111111;
   z-index: 1001;
   box-sizing: content-box;
   transition: transform 500ms ease 0s;
@@ -7447,7 +7447,7 @@ blockquote p {
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #333333;
+  background: #111111;
   z-index: 1001;
   box-sizing: content-box;
   transition: transform 500ms ease 0s;
@@ -7472,25 +7472,25 @@ ul.off-canvas-list {
 }
 ul.off-canvas-list li label {
   display: block;
-  padding: 0.3rem 0.9375rem;
-  color: #999999;
+  padding: 0.5rem 1.25rem;
+  color: #a526ff;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: bold;
-  background: #222222;
-  border-top: 1px solid #414141;
+  background: #111111;
+  border-top: 1px solid #323232;
   border-bottom: none;
   margin: 0;
 }
 ul.off-canvas-list li a {
   display: block;
-  padding: 0.5rem;
-  color: rgba(255, 255, 255, 0.7);
-  border-bottom: 1px solid #262626;
+  padding: 0.5rem 1.25rem;
+  color: #999999;
+  border-bottom: 1px solid #0d0d0d;
   transition: background 300ms ease;
 }
 ul.off-canvas-list li a:hover {
-  background: #1f1f1f;
+  background: #222222;
 }
 
 .move-right > .inner-wrap {
@@ -7660,7 +7660,7 @@ ul.off-canvas-list li a:hover {
   margin: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #333333;
+  background: #111111;
   z-index: 1002;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -7681,18 +7681,18 @@ ul.off-canvas-list li a:hover {
   -webkit-backface-visibility: hidden;
 }
 .left-submenu .back > a {
-  padding: 0.3rem 0.9375rem;
-  color: #999999;
+  padding: 0.5rem 1.25rem;
+  color: #a526ff;
   text-transform: uppercase;
   font-weight: bold;
   background: #111111;
-  border-top: 1px solid #414141;
+  border-top: 1px solid #323232;
   border-bottom: none;
   margin: 0;
 }
 .left-submenu .back > a:hover {
   background: #0c0c0c;
-  border-top: 1px solid #414141;
+  border-top: 1px solid #323232;
   border-bottom: none;
 }
 .left-submenu .back > a:before {
@@ -7718,7 +7718,7 @@ ul.off-canvas-list li a:hover {
   margin: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #333333;
+  background: #111111;
   z-index: 1002;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -7739,18 +7739,18 @@ ul.off-canvas-list li a:hover {
   -webkit-backface-visibility: hidden;
 }
 .right-submenu .back > a {
-  padding: 0.3rem 0.9375rem;
-  color: #999999;
+  padding: 0.5rem 1.25rem;
+  color: #a526ff;
   text-transform: uppercase;
   font-weight: bold;
   background: #111111;
-  border-top: 1px solid #414141;
+  border-top: 1px solid #323232;
   border-bottom: none;
   margin: 0;
 }
 .right-submenu .back > a:hover {
   background: #0c0c0c;
-  border-top: 1px solid #414141;
+  border-top: 1px solid #323232;
   border-bottom: none;
 }
 .right-submenu .back > a:after {
@@ -8227,10 +8227,14 @@ body {
   background-color: #111111;
 }
 
-.tab-bar {
+.column {
   margin-bottom: 0.9375rem;
 }
 
 .align-right {
   text-align: right;
+}
+
+.crawler {
+  height: 3.125rem;
 }

@@ -5,11 +5,16 @@
 //Import Display colors for layout markup
 	@import "my/display";
 
-.tab-bar{
+.column{
 	margin-bottom: $gutter;
 }
 
 .align-right{
 	text-align: right;
 }
+
+.crawler{
+	height: rem-calc(50);
+}
+
 
