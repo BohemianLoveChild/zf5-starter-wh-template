@@ -13,8 +13,14 @@
 	text-align: right;
 }
 
+$crawler-height: rem-calc(50);
 .crawler{
-	height: rem-calc(50);
+	height: $crawler-height;
+	font-size: $crawler-height;
+	font-weight: bold;
+	line-height: $crawler-height;
+	color: $dark;
+	
 }
 
 

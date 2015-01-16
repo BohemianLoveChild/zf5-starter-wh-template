@@ -8237,4 +8237,8 @@ body {
 
 .crawler {
   height: 3.125rem;
+  font-size: 3.125rem;
+  font-weight: bold;
+  line-height: 3.125rem;
+  color: #111111;
 }

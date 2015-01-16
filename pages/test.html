@@ -20,5 +20,17 @@
 {% block content %}
 
 
+<video width="640" height="360" id="player1" preload="none">
+            <source type="video/youtube" src="http://www.youtube.com/watch?v=Lt6CUH9bVzI" />
+        </video>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+
+    // declare object for video
+    var player = new MediaElementPlayer('#player1');
+
+});
+</script>
 
 {% endblock %}
